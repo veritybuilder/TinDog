@@ -1,0 +1,189 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.fluid-container {
+  padding: 3% 11% 7%;
+}
+
+#meetNew {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family:'Montserrat';
+  font-size: 1.2rem;
+}
+
+/* buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.iphoneimg {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Selling cards */
+
+#features {
+  padding: 12% 15%;
+  position:relative;
+  background-color: white;
+}
+
+.individual-cards {
+  text-align: center;
+}
+
+.icon-sp {
+  padding: 5%;
+  color: #ef8172
+}
+
+.h3-selling-point {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+}
+
+i:hover {
+  color: #ff4c68
+}
+
+/* Testemonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-indicators {
+  margin-bottom: 4.5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricingCard {
+  padding: 3% 2%;
+}
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphoneimg {
+    position: static;
+    transform: rotate(0);
+    width: 45%;
+    margin-top: 20px;
+  }
+}
+
+/* Call to action */
+
+.callToAction {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.h3CallAction {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+  padding: 2% 0;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-logo {
+  margin: 1% 1% 1% 1%;
+  color: black;
+}
+
+.final-text {
+  margin-top: 20px;
+  color: grey;
+  text-decoration: none;
+}
